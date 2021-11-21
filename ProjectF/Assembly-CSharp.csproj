@@ -269,6 +269,12 @@
     <Reference Include="Newtonsoft.Json">
         <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.burst@1.4.1\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+        <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.collections@0.15.0-preview.21\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:\unity\2020.3.22f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
@@ -704,6 +710,138 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{2687d076-009c-0b25-3f1d-7dc625489bff}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.UI.Editor.csproj">
+      <Project>{9bc50e44-0066-d7ad-5304-90ad0ae7df1f}</Project>
+      <Name>Unity.Properties.UI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.csproj">
+      <Project>{9e1b7647-f65d-8cf5-5098-93d6169e7c54}</Project>
+      <Name>Unity.Scenes</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.Hybrid.csproj">
+      <Project>{8ad7f21c-5e5b-5396-f133-79b052aa0590}</Project>
+      <Name>Unity.Mathematics.Extensions.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.BuildUtils.csproj">
+      <Project>{c2b6c75b-ab51-3b49-53ec-087a96b8b986}</Project>
+      <Name>Unity.Entities.BuildUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.UI.csproj">
+      <Project>{98ce6ccc-2c22-cf51-c3f2-c18fc8dca544}</Project>
+      <Name>Unity.Properties.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.csproj">
+      <Project>{b8202d93-a3d4-45e0-1a2f-e7bf43b8b38c}</Project>
+      <Name>Unity.ScriptableBuildPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.csproj">
+      <Project>{caa8a9db-6c26-1aac-2ffd-90be7d0e3c03}</Project>
+      <Name>Unity.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Jobs.csproj">
+      <Project>{3c26649c-52e3-c098-3ce2-7178ae16bbc8}</Project>
+      <Name>Unity.Jobs</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Deformations.csproj">
+      <Project>{b26da4aa-db2c-ac64-26c0-1796c9763ea2}</Project>
+      <Name>Unity.Deformations</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Properties.csproj">
+      <Project>{984f7dfa-4259-d974-22d4-e762a27396cd}</Project>
+      <Name>Unity.Properties</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.CacheServer.csproj">
+      <Project>{0b4fd805-7d34-b0f4-9a1c-a4710fe8d70c}</Project>
+      <Name>UnityEditor.CacheServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Jobs.Editor.csproj">
+      <Project>{a088ff5c-8d2a-df1d-1012-84e1322f2ed0}</Project>
+      <Name>Unity.Jobs.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Scenes.Editor.csproj">
+      <Project>{570e7919-9f7a-639c-f662-95d584e2630e}</Project>
+      <Name>Unity.Scenes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Collections.csproj">
+      <Project>{e9298e17-622e-5008-e680-cfd881ef88e1}</Project>
+      <Name>Unity.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.EndToEnd.Tests.csproj">
+      <Project>{b8c6f660-4927-668f-2766-113b5161ff88}</Project>
+      <Name>Unity.Entities.Hybrid.EndToEnd.Tests</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Editor.csproj">
+      <Project>{21db1a3e-afb0-86b6-611d-090f4e853eaf}</Project>
+      <Name>Unity.Entities.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.Hybrid.csproj">
+      <Project>{268dd565-fbee-762d-2fa3-2c8928c6ab41}</Project>
+      <Name>Unity.Entities.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.Hybrid.csproj">
+      <Project>{bde52bbd-4335-02c2-1c87-01dd5994075c}</Project>
+      <Name>Unity.Transforms.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{ecfda05d-945d-6245-b7c1-d9fe6edf306e}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Extensions.csproj">
+      <Project>{d5e3679f-1694-5441-bd8e-8acdd3e569e4}</Project>
+      <Name>Unity.Mathematics.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Transforms.csproj">
+      <Project>{81ba923a-d2ef-b770-8b64-64109429a9bd}</Project>
+      <Name>Unity.Transforms</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Entities.csproj">
+      <Project>{a8a407fa-fa7c-a8d1-84d6-10fc9c127f50}</Project>
+      <Name>Unity.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Serialization.Editor.csproj">
+      <Project>{51584fec-b1df-bb0f-8047-313421e41c45}</Project>
+      <Name>Unity.Serialization.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{baafa801-9ac0-101f-a906-b0855ac1745f}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ScriptableBuildPipeline.Editor.csproj">
+      <Project>{069ef5db-bc8f-358c-2106-54a6fb0d5f34}</Project>
+      <Name>Unity.ScriptableBuildPipeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Hybrid.csproj">
+      <Project>{04c46e94-ca2f-396f-74ce-dc2b2f67ef2b}</Project>
+      <Name>Unity.Physics.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Havok.Physics.csproj">
+      <Project>{c9407df3-ad56-df88-38b1-4454f589f188}</Project>
+      <Name>Havok.Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.Editor.csproj">
+      <Project>{0bc86fd8-bb06-b44e-0904-6b040c724d8d}</Project>
+      <Name>Unity.Physics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Physics.csproj">
+      <Project>{5838fa53-586b-922c-0130-bda03e863371}</Project>
+      <Name>Unity.Physics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Havok.Physics.Hybrid.csproj">
+      <Project>{28fc93e6-2bb6-a16e-c324-f6ab4131228d}</Project>
+      <Name>Havok.Physics.Hybrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="Havok.Physics.Editor.csproj">
+      <Project>{900e23d5-dc25-5c24-bc62-af2a2dd74b00}</Project>
+      <Name>Havok.Physics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.Hybrid.Editor.csproj">
+      <Project>{ea9c9215-d755-d849-3789-3f9f21c6cd39}</Project>
+      <Name>Unity.Rendering.Hybrid.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rendering.Hybrid.csproj">
+      <Project>{9d1c3f82-25bf-f440-fde0-6376ddef4d16}</Project>
+      <Name>Unity.Rendering.Hybrid</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,20 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "#dllimport:HavokNative|HP_SyncWorldIn",
+      "FullName": "Havok.Physics.Plugin.HP_SyncWorldIn(int worldIndex, int numSecondaryBodies, int numDynamicBodies, int numStaticBodies, void* rigidBodies, int rigidBodyStride, Unity.Physics.MotionData* motionDatas, int motionDataStride, Unity.Physics.MotionVelocity* motionVelocities, int motionVelocityStride, void* joints, int numJoints, int jointStride, bool haveStaticBodiesChanged)_7B16C4D2FDB48E31"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::IsDefaultValue",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.IsDefaultValue(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle)_EC909F2AF88C0497"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle)_5D0EA054F9B3B77F"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message)_C2EC9A829AFAD7DD"
+    }
+  ]
+}

@@ -399,6 +399,12 @@
     <Reference Include="Newtonsoft.Json">
         <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.burst@1.4.1\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+        <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.collections@0.15.0-preview.21\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:\unity\2020.3.22f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
@@ -766,6 +772,10 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{2687d076-009c-0b25-3f1d-7dc625489bff}</Project>
       <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{ecfda05d-945d-6245-b7c1-d9fe6edf306e}</Project>
+      <Name>Unity.Burst</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

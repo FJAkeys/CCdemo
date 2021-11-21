@@ -359,6 +359,12 @@
     <Reference Include="Newtonsoft.Json">
         <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.burst@1.4.1\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+        <HintPath>D:\20200728\CCdemo\ProjectF\Library\PackageCache\com.unity.collections@0.15.0-preview.21\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
         <HintPath>D:\unity\2020.3.22f1c1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>
